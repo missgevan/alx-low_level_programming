@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - Printing whether a number is postive, zero or negative
+ * Declaration: using the main function
+ * the program prints "positive,negative, or zero"
  *
  * Return: 0
  */
