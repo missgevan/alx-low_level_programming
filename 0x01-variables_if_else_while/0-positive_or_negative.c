@@ -3,11 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Printing whether a number is postive, zero or negative
- * Declaration: using the main function
- * the program prints "positive,negative, or zero"
+ * main - Entry point 
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
