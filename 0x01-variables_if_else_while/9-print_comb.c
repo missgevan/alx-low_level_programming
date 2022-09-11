@@ -11,6 +11,8 @@ for (sd = '0' ; sd <= '9' ; sd++)
 
 {
 	putchar(sd);
+	if (sd == '9')
+		break;
 {
 	putchar(',');
 	putchar(' ');
