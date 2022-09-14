@@ -2,12 +2,12 @@
 #include <stdlib.h>
 /**
  * _abs - Computes the absolute value of an integer.
+ * @x: an integer for which its absolute value is computed.
  *
  * Return: Always 0
  */
-int _abs(int)
+int _abs(int x)
 {
-int x;
 if (x == 0 || x > 0)
 {
 return (x);
