@@ -16,6 +16,7 @@ _putchar(',');
 _putchar(' ');
 
 c = a * b;
+
 if (c <= 9)
 _putchar(' ');
 
