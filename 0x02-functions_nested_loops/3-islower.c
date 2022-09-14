@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - Checks for a character.
+ * @c: character used in function
  *
  * Return: Always 0 (Success)
  */
