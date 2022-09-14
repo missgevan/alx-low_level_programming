@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _islower(int c) - Checks for a character.
+ * _islower - Checks for a character.
  *
  * Return: Always 0 (Success)
  */
