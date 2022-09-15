@@ -10,6 +10,7 @@ void jack_bauer(void)
 	int h = 0;
 	int M;
 	int H;
+
 while (H <= 23)
 {
 while (M <= 59)
