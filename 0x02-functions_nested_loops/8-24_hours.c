@@ -15,6 +15,7 @@ while (H <= 23)
 while (M <= 59)
 {
 	H = h % 10;
+	M = m % 10
 	_putchar(h / 10 + '0');
 	_putchar(H + '0');
 	_putchar(':');
