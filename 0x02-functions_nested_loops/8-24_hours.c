@@ -2,7 +2,7 @@
 /**
  * jack_bauer - Prints every minutes starting from 00:00 to 23:59
  *
- * Return: void
+ * Return: Always 0
  */
 void jack_bauer(void)
 {
@@ -11,9 +11,9 @@ void jack_bauer(void)
 	int M;
 	int H;
 
-while (H <= 23)
+while (h <= 23)
 {
-while (M <= 59)
+while (m <= 59)
 	{
 	H = h % 10;
 	M = m % 10;
