@@ -23,8 +23,11 @@ void print_rev(char *s)
 		c = *b;
 		*b = *a;
 		*a = c;
-		a++;
-		b--;
+		{
+			_putchar(*(s + i));
+			a++;
+			b--;
+		}
 	}
 	_putchar('\n');
 }
