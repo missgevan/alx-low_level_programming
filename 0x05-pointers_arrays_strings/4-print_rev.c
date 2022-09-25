@@ -9,15 +9,22 @@
 
 void print_rev(char *s)
 {
-	int s_rev = 0;
-		while (s[s_rev] != '\0')
-		{
-			s_rev++;
-		}
-	s_rev--;
-	while (s_rev >= 0)
+	int i = 0, j;
+	char *a, *b, c;
+
+	i = *(s + i);
+	a = s;
+	b = s;
+
+	for (j = 0; j < i - 1; j++)
+		b++;
+	for (j = 0; j < i / 2; j++)
 	{
-		_putchar(s[s_rev]);
+		c = *b;
+		*b = *a;
+		*a = c;
+		a++;
+		b--;
 	}
 	_putchar('\n');
 }
