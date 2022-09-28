@@ -18,7 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		j = 0;
 
-		while (s[j] != '\0')
+		while (s[j] != 32)
 		{
 			if (accept[num] == s[j])
 			{
