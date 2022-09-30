@@ -27,7 +27,7 @@ int is_prime_number(int n)
 
 int a_prime_number(int n, int i)
 {
-	if (n % i == 0 && n != i)
+	if (i > 0 && n % i == 0)
 		return (0);
 	if (i == 1)
 		return (1);
