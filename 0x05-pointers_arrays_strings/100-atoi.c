@@ -18,7 +18,7 @@ int _atoi(char *s)
 	i = 0;
 	while (s[i] != '\0')
 	{
-		c = (*(s + i) != '\0');
+		c = *(s + i);
 			if (c == '-')
 			{
 				j = j * -1;
