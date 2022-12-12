@@ -1,18 +1,43 @@
 #include "main.h"
 
 /**
- * _strlen - A function that returns the length of a string
- * @s: A string whose length is returned
+ * _atoi - A function that convert a string to an integer
+ * @s: string character
  *
- * Return: string_length
+ * Return: Integer of converted number
  */
 
-int _strlen(char *s)
+int _atoi(char *s)
 {
-	int string_length = 0;
+	int i, k;
+	int j = 1;
+	char c;
+	unsigned int n;
 
-	while (*(s + string_length) != '\0')
-		string_length++;
-
-	return (string_length);
+	n = 0;
+	i = 0;
+	while (s[i] != '\0')
+	{
+		c = *(s + i);
+			if (c == '-')
+			{
+				j = j * -1;
+			}
+		if (c >= '0' && c <= '9')
+		{
+			k = i;
+			while (*(s + k) > 47 && *(s + k) < 58)
+			{
+				n = *(s + k) + (n * 10) - '0';
+				k++;
+			}
+			break;
+		}
+		i++;
+	}
+	if (j < 0)
+		n = n * j;
+	return (n);
 }
+
+
